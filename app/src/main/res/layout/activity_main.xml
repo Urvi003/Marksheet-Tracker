@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background"
+    android:background="@drawable/bac"
     tools:context=".MainActivity">
 
     <TextView
@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/Welcome"
         android:text="Welcome To \n Marksheet Tracking System"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="35dp"
         android:textStyle="bold"
         android:layout_margin="50dp"
@@ -33,8 +33,8 @@
         android:drawablePadding="20dp"
         android:hint="Enrollment No."
         android:padding="20dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white" />
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
 
     <EditText
         android:id="@+id/password"
@@ -50,8 +50,8 @@
         android:drawablePadding="20dp"
         android:hint="Password"
         android:padding="20dp"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
         android:inputType="textPassword"/>
 
     <com.google.android.material.button.MaterialButton
@@ -74,7 +74,7 @@
         android:id="@+id/forgotpass"
         android:layout_below="@id/loginbtn"
         android:text="Forgot Password ?"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         />
 
